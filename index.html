@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Animation Slider</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- Header  -->
     <header>
         <nav>
             <a href="#">Home</a>
@@ -16,23 +18,131 @@
         </nav>
     </header>
 
-    <div class="slider">
+    <!-- Carousel  -->
+
+    <div class="carousel">
+        <!-- List Item  -->
         <div class="list">
+           <!-- Slide 1: Perkenalan -->
+    <div class="item">
+        <img src="img/img1.jpg" alt="Gambar Pasangan">
+        <div class="content">
+            <div class="author">Undangan Pernikahan</div>
+            <div class="title">Afiifatuts Tsaaniyah & Nama Pasangan</div>
+            <div class="topic">Hari Bahagia Kami</div>
+            <div class="des">
+                Dengan memohon ridho Allah SWT, kami mengundang Anda untuk menghadiri hari bahagia kami. 
+                <br><br>
+                        “Bersama, kami memulai perjalanan hidup yang penuh cinta dan kebahagiaan.”
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2: Tanggal dan Waktu -->
             <div class="item">
-                <img src="img/1.png" alt="Image 1">
-                <div class="detail">
-                    <div class="title">Twice</div>
-                    <div class="name">Tzuyu</div>
-                    <figure>
-                        <img src="img/1.png" alt="Avatar 1">
-                        <caption>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, recusandae? At placeat quia et commodi, officiis architecto. Eius voluptas facilis perferendis odit libero ipsum! Nihil accusantium autem necessitatibus eius illum.</caption>
-                    </figure>
+                <img src="img/img2.jpg" alt="Gambar Tanggal Pernikahan">
+                <div class="content">
+                    <div class="author">Tanggal & Waktu</div>
+                    <div class="title">12 Oktober 2024</div>
+                    <div class="topic">Pukul 10:00 WIB</div>
+                    <div class="des">
+                        Acara pernikahan akan dilangsungkan pada:
+                        <br><br>
+                        <strong>Sabtu, 12 Oktober 2024</strong><br>
+                        <strong>Pukul 10:00 WIB</strong>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3: Lokasi Acara -->
+            <div class="item">
+                <img src="img/img3.jpg" alt="Gambar Lokasi">
+                <div class="content">
+                    <div class="author">Lokasi</div>
+                    <div class="title">[Nama Venue]</div>
+                    <div class="topic">[Alamat Venue]</div>
+                    <div class="des">
+                        Tempat acara akan berlangsung di:
+                        <br><br>
+                        <strong>[Nama Venue]</strong><br>
+                        [Alamat Venue]
+                        <br><br>
+                        Kami menantikan kehadiran Anda.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 4: Doa Restu -->
+            <div class="item">
+                <img src="img/img4.jpg" alt="Gambar Islami">
+                <div class="content">
+                    <div class="author">Mohon Doa Restu</div>
+                    <div class="title">Bismillah</div>
+                    <div class="topic">Doa dan Harapan</div>
+                    <div class="des">
+                        "Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu pasangan dari jenismu sendiri, 
+                        agar kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya di antaramu rasa kasih dan sayang." (QS. Ar-Rum: 21)
+                        <br>
+                        Kehadiran dan doa restu Anda adalah kebahagiaan bagi kami.
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="thumbnail">
 
+        <!-- Thumbnail  -->
+        <div class="thumbnail">
+            <div class="item">
+                <img src="img/img1.jpg">
+                <div class="content">
+                    <div class="title">
+                        Name Slider
+                    </div>
+                    <div class="des">
+                        Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/img2.jpg">
+                <div class="content">
+                    <div class="title">
+                        Name Slider
+                    </div>
+                    <div class="des">
+                        Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/img3.jpg">
+                <div class="content">
+                    <div class="title">
+                        Name Slider
+                    </div>
+                    <div class="des">
+                        Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/img4.jpg">
+                <div class="content">
+                    <div class="title">
+                        Name Slider
+                    </div>
+                    <div class="des">
+                        Description
+                    </div>
+                </div>
+            </div>
         </div>
+
+        <!-- Arrows  -->
+         <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
